@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel= "stylesheet" href="style.css">
+
+    <title>FullGamerBross</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="86">
+<!-- Header -->
+    <header>
+        <nav  id="header" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="assets/images/Log1.png"  alt="logo">
+            
+            
+            </a>
+            <!-- Este es el menu hamburguesa que se muestra en pantallas sm -->
+            <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#navbar"
+               aria-controls="navbar"
+               aria-expanded="false"
+               aria-label="Toggle navigation";>
+            <span class="navbar-toggler-icon" ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+            <ul  class="navbar-nav ms-auto ">
+                <li class="nav-item">
+                <a  class="nav-link active" aria-current="page" href="#main">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#profesores">Productos</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#place-time">Diseños</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="btn btn-link btn-platzi2" href="#" data-bs-toggle="modal" data-bs-target="#modalCompra">E-Commerce</a>
+                </li>
+            </ul>
+            <form class="d-flex p-2">
+                <input class="form-control me-2" type="search" placeholder="Buscar articulos" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </div>
+        </div>
+        </nav>
+    </header>
+ <!-- /Header -->
+<!-- MAIN  -->
+        <main id="main">
+                  <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-pause=“false”>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/11.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/22.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/33.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="overlay">
+                <div class= "container">
+                  <div class= "row align-items-center">
+                    <div class= "col-md-6 offset-md-6 text-center text-md-end">
+                      <h1><img src="assets/images/letra.png" alt="logo"></h1> 
+                      <p class="d-none d-md-block">En FullgamerBros encontraras todo lo necesario para entrar al 
+                        mundo gaming,<br> mejorar tu setup, iluminar tu espacio al mejor estilo.
+                         <br> <img src="assets/images/SuperMario12.png"> <img src="assets/images/Luigi.png">
+                      </p>
+                      <a href= "#" class="btn btn btn-platzi2">  Mas información </a>
+                      <button type="button" class="btn   btn-platzi " data-bs-toggle="modal" data-bs-target="#modalCompra" > Comprar Articulos </button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            
+        </main>
+ <!-- /Main --> 
+ <!-- Nueva Sección Speakers --> 
+        <section id= "profesores" class="mt-4">
+          <div class="container" >
+            <div class= "row"> 
+              <div class="col text-center text-uppercase">
+                <small>Conoce nuestros </small>
+                <h2>Productos</h2>
+              </div>
+            </div>
+            <div class="row">       <!-- Nueva fila  class row  --> 
+              <div class="col-12 col-md-6 col-lg-4 mb-4" >     <!-- Nueva columna  class col  --> 
+                <div class="card">
+                  <img src="assets/images/RED.jpg" class="card-img-top" alt="Foto de Stephan">
+                  <div class="card-body">
+                    <h5 class="card-title">Sillas Gamer </h5>
+                    <div class="badges d-flex justify-content-start mb-2"> 
+                      <span class="badge bg-dark  p-2">Elegante</span>
+                      <span class="badge bg-info text-dark p-2 ms-2">Confortable</span>
+                      <span class="badge bg-danger text-dark p-2 ms-2">personalizable</span>
+                      <span class="badge bg-dark  p-2 ms-2">Maximo estilo</span>
+                    </div>
+                    <p class="card-text">Las sillas gamer corrigen los problemas de la columna con ciencia ergonómica simple.
+                       En lugar de que su columna vertebral sostenga su cuerpo contra la gravedad, las sillas de juego hacen
+                        el trabajo por usted. Un respaldo alto acolchado con cojines lumbares y para el cuello proporciona el soporte principal.. 
+                    </p>
+                    <a href="#" class="btn btn-primary">Ver mas</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mb-4" >     <!-- Personaje 2   --> 
+                <div class="card">
+                  <img src="assets/images/monit1.jpg" class="card-img-top" alt="Foto de Stephan">
+                  <div class="card-body" >
+                    <h5 class="card-title">Monitores</h5>
+                    <span class="badge bg-dark  p-2 mb-2">LG</span>
+                      <span class="badge bg-info text-dark p-2 ms-2">ASUS ROG</span>
+                      <span class="badge bg-danger text-dark p-2 ms-2">SAMSUNG</span>
+                      <span class="badge bg-dark  p-2 ms-2">Maximo estilo</span>
+                    <p class="card-text">Todo el equipamiento para gaming    requiere   unas características específicas, mejoran
+                       tu experiencia a la hora de jugar, pero el monitor destaca siendo uno de los elementos clave  para conseguir  mejor rendimiento en juegos. 
+                       En determinados juegos, como en los de conducción o FPS, disponer de  mayor campo de visión es  ventaja 
+                       sobre el terreno de juego.
+                    </p>
+                    <a href="#" class="btn btn-toyo">Conoce mas</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mb-4" >     <!-- Nueva columna  class col  --> 
+                <div class="card">
+                  <img src="assets/images/rgb1.jpg" class="card-img-top" alt="Foto de Stephan">
+                  <div class="card-body">
+                    <h5 class="card-title">Mundo RGB</h5>
+                    <span class="badge bg-info text-dark p-2 ms-2 mb-2">Mejor estilo</span>
+                    <p class="card-text">Existen distintos tipos de controladores para generar el ambiente deseado o los cambios de color RGB.
+                       La elección de un sistema de control de iluminación RGB u otro dependerá  del tipo de instalación,
+                        del tamaño de esta, y de la cantidad de efectos y funciones que se deseen. A continuación enumeramos y describimos 
+                        brevemente los sistemas más comunes.
+                    </p>
+                    <a href="#" class="btn btn-outline-dark">Conoce mas</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>  
+  <!-- /Nueva Sección Speakers -->   
+<!-- seccion prueba card hover  -->   
+  <div class="card">         </div>
+<!-- sección de prueba card hover --> 
+  <!-- Lugar y fecha  -->        
+  <!-- /Lugar y fecha  -->  
+  <section id="place-time" >
+    <div class="container-fluid bg-dark text-light">    <!-- nuevo div,  con clase container fluid, color de fondo bg-dark --> 
+      <div class="row">              <!-- nuevo div,  con clase Columna   --> 
+        <div class="col-12 col-lg-6 p-0">    <!-- En la columna  P-0-->
+                                                        
+         <img class="img-fluid" src="assets/images/cuartoGamer.jpg"  alt="cuarto de trabajo">   <!--Para la imagen ancho 100% basta con agregarle .img-fluid-->
+         
+        </div>
+        <div class="col-12 col-lg-6 pt-4 pb-4">   <!-- agrgamos un pading top de 2 a la columna-->
+         <h2> Diseños para tu cuarto Gamer </h2> 
+         <p>Anteriormente era inimaginable pensar en que podías decorar un cuarto gamer, pero la tendencia y las novedades tecnológicas hoy en día nos demuestran que sí se puede y no solo con un artilugio gamer, sino con muchos detalles. Ahora verás cuántos de ellos…</p>
+         <p>Iluminación, Monitores, Silla, Gaming Alfombras y accesorios Vinilos, Lo mejor de este estilo de decoración de habitaciones, es que se puede adaptar a todas las edades, dando un acabado milenario y totalmente tecnológico, atrayendo a cualquier persona que entre en este punto de casa.  </p>
+         
+         <h4>Monitores sin Marco estilo Gamer</h4>
+         <p>El monitor aunque no lo creas, es parte importante de una buena decoración gamer, pues será la representación propia de la nitidez que quieres en el espacio de tu máximo confort. Sin duda debe tener un funcionamiento veloz, pero para temas decorativos te recomendamos los monitores sin marco para que logres destacar tu cuarto y ponerlo ¡a todo color!</p> 
+         <h4>¡El trono que no pasa desapercibido! La silla gaming</h4>
+         <p>En la decoración gaming habitación, la silla gaming como hemos dicho ¡es el trono! ¿por qué? Porque es donde más tiempo pasarás sentado. Por tanto, es necesario no solo que cuide tu espalda, sino que puedas escoger el tono que mejor combine con el resto del cuarto gamer.</p>
+         <!--<div class="d-flex justify-content-end m-2"> <a class="btn   btn-outline-light" href="https://decoideasplus.com/decoracion-gamer-2021/">Conoce mas</a> <a class="btn   btn-outline-light" href="https://decoideasplus.com/decoracion-gamer-2021/">Conoce mas</a> </div> --> 
+          <div class="d-flex justify-content-center"> <a class="btn   btn-outline-light" href="https://decoideasplus.com/decoracion-gamer-2021/">Conoce mas</a>  </div>
+            <!-- <a class="btn   btn-outline-light" href="https://decoideasplus.com/decoracion-gamer-2021/">Conoce mas</a>--> 
+          </div>
+      </div>
+    </div>
+
+  </section>
+ <!-- /Nueva Sección --> 
+<!-- Nueva Sección form grid --> 
+   <section id="nueva-seccion-formualrios" class="pt-3 pb-3">
+     <div class="container">
+      <div class="row">
+        <div class="col text-uppercase text-center">
+          <small>Conviértete en un </small>
+          <h2>Experto en estilo Gamer</h2>
+        </div>    
+      </div>
+      <div class="row">
+        <div class="col text-center">
+        <abbr title="Anotate  esto es una etiqueta"data-bs-toggle="tooltip">Anotaté si deseas conocer mas ofertas.</abbr> 
+          los mejores diseños exclusivos para ti!
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+        <div class="row">
+            <div class="form-label col-12 col-md-6">
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+            </div>
+            <div class="form-label col-12 col-md-6">
+              <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-label col">
+              <textarea name="text" class="form-control form-control-lg" placeholder="Que articulos deseas consultar?"></textarea>
+              <small class= "form-text text-muted">Recuerda incluir un titulo</small>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col">
+              <button type="button" class="btn btn-dark col-12">Enviar</button>
+            </div>
+          </div>
+        </div>     
+      </div>
+     </div>         
+    </section>         
+
+
+           
+
+<!-- /Nueva Secciónform grid --> 
+  <!-- Footer -->
+  <footer id="footer" class="pb-4 pt-4"  >
+       <div  class="container"> 
+         <div class="row text-center"> 
+          <div class="col-12 col-lg">
+            <a href="">Preguntas frecuentes</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href=""> Contactanos </a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href=""> Prensa </a>
+          </div>
+          <div class="col-12 col-lg ">
+            <a href=""> Terminos y condiciones </a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href=""> Privacidad </a>
+          </div>
+          
+        </div>
+
+    <!-- /Footer -->
+    <!-- Modal -->
+    <div class="modal fade" id="modalCompra" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Compra tus tikets</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col">
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="alert alert-warning" role="alert">
+              Recibiras un correo de confirmación si sales sorteado
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-platzi">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>   
+    
+
+    <!-- /Modal -->   
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="index.js"></script>        
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+     <!-- jQuery  -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!-- /jQuery  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    
+    <!-- Función jQuery para cerrar el navbar automáticamente -->
+    <script>
+        $('.navbar-nav>li>a').on('click', function(){
+            $('.navbar-collapse').collapse('hide');
+        });
+    </script>
+   
+
+
+  </body>
+</html>
